@@ -1,5 +1,5 @@
 const menuItems = [
-    { title: 'Home', link: '/WSOA3028A/index.html' },
+    { title: 'Home', link: '/index.html' },
     { title: 'personal Blog', link: '/WSOA3028A/PBlog/personalBlog.html' },
     { title: 'Characters Blog', link: '/WSOA3028/CBlog/CharactersBlog' },
     { title: 'About', link: '/index.html' },
