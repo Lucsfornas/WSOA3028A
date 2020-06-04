@@ -1,11 +1,11 @@
 const menuData = [
-    { title: 'Home', link ='/' },
-    { title: 'personal Blog', link ='/PBlog' },
-    { title: 'Characters Blog', link ='/CBlog' },
+    { title: 'Home', link: '/' },
+    { title: 'personal Blog', link: '/PBlog' },
+    { title: 'Characters Blog', link: '/CBlog' },
 ];
 const initialiseMenu = () => {
     const nav = document.querySelector('nav');
-    const ul = document.createElement('ul');
+    const ul = document.createElement('Ul');
     for (let item of menuItems) {
         const li = document.createElement('li');
         const a = document.createElement('a');
