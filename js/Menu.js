@@ -1,10 +1,10 @@
-const menuData = [
+const menuItems = [
     { title: 'Home', link: '/' },
     { title: 'personal Blog', link: '/PBlog' },
     { title: 'Characters Blog', link: '/CBlog' },
 ];
 const initialiseMenu = () => {
-    const nav = document.querySelector('.menu');
+    const nav = document.querySelector('.Menu');
     const ul = document.createElement('ul');
     for (let item of menuItems) {
         const li = document.createElement('li');
