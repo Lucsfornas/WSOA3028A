@@ -1,7 +1,7 @@
 const menuData = [
-    { title: 'Home', link ='/index.html' },
-    { title: 'personal Blog', link ='/PersonalBlog.html' },
-    { title: 'Characters Blog', link ='/CharactersBlog' }
+    { title: 'Home', link ='/' },
+    { title: 'personal Blog', link ='/PBlog' },
+    { title: 'Characters Blog', link ='/CBlog' }
 ]
 
 const initialiseMenu = () => {
@@ -14,7 +14,7 @@ const initialiseMenu = () => {
         const a = document.createElement('a');
         a.innerText = item.title;
         a.href = item.link;
-        li.appendChild('a');
+        li.appendChild(a);
 
         ul.appendChild(li);
 
