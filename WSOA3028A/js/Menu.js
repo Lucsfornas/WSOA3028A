@@ -1,4 +1,4 @@
-const menuData = [
+const menuItems = [
     { title: 'Home', link: '/' },
     { title: 'personal Blog', link: '/PBlog' },
     { title: 'Characters Blog', link: '/CBlog' },
