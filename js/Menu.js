@@ -4,7 +4,7 @@ const menuData = [
     { title: 'Characters Blog', link: '/CBlog' },
 ];
 const initialiseMenu = () => {
-    const nav = document.querySelector('nav');
+    const nav = document.querySelector('.menu');
     const ul = document.createElement('ul');
     for (let item of menuItems) {
         const li = document.createElement('li');
