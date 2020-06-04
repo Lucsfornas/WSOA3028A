@@ -14,7 +14,7 @@ const initialiseMenu = () => {
         li.appendChild(a);
         ul.appendChild(li);
 
-    }
+    };
     nav.appendChild(ul);
 };
 document.addEventListener('DomContentLoaded', () => initialiseMenu());
