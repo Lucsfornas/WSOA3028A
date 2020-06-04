@@ -6,7 +6,9 @@ const menuItems = [
 ];
 const initialiseMenu = () => {
     const nav = document.querySelector('.menu');
+
     const ul = document.createElement('ul');
+
     for (let item of menuItems) {
         const li = document.createElement('li');
         const a = document.createElement('a');
