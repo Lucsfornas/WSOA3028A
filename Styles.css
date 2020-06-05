@@ -17,7 +17,7 @@ li, a, button{
     text-decoration: none;
 }
 
-h1,h2,p{
+h1,h2,p,body{
     font-family: "montserrat",sans-serif;
 text-align: center;
 }
@@ -28,7 +28,7 @@ header{
     align-items: center;
     padding: 30px 10%;
     color: lightgray;
-    
+    backface-visibility: hidden;
 }
 
 .nav_links{
