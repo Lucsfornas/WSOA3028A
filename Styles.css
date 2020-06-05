@@ -59,13 +59,6 @@ list-style: none;
     padding: 0px 20px;
 }
 
-.nav_links li a{
-transition: all 0.3s ease 0s;
-}
-
-.nav_links li a :hover{
-    color: blue;
-    }
 
 .button{
         padding: 9px 25px;
