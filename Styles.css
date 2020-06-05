@@ -3,7 +3,10 @@
 *{box-sizing: border-box;
 margin:0 ;
 padding: 0;
-background-color: #5d5c61;
+background-image: url(/websitebackground.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 
 li, a, button{
@@ -14,11 +17,18 @@ li, a, button{
     text-decoration: none;
 }
 
+h1,h2,p{
+    font-family: "montserrat",sans-serif;
+text-align: center;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    color: lightgray;
+    
 }
 
 .nav_links{
@@ -38,12 +48,7 @@ transition: all 0.3s ease 0s;
     color: blue;
     }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
+
 
 .nav_links{
 list-style: none;
