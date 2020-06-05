@@ -1,7 +1,7 @@
 const menuItems = [
     { title: 'Home', link: './index.html' },
-    { title: 'personal Blog', link: '/WSOA3028A/PBlog/personalBlog.html' },
-    { title: 'Characters Blog', link: '/WSOA3028/CBlog/CharactersBlog' },
+    { title: 'personal Blog', link: '/WSOA3028A/personalBlog.html' },
+    { title: 'Characters Blog', link: '/WSOA3028/CharactersBlog' },
     { title: 'About', link: '/index.html' },
 ];
 const initialiseMenu = () => {
