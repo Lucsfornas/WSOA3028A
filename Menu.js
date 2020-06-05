@@ -5,7 +5,7 @@ const menuItems = [
     { title: 'About', link: '/index.html' },
 ];
 const initialiseMenu = () => {
-    const nav = document.querySelector('./menu');
+    const nav = document.querySelector('Menu');
 
     const ul = document.createElement('ul');
 
