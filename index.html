@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="./Styles.css" rel="stylesheet" />
-    <script src="./JavaScript/Menu.js" type="module"></script>
+    <script src="./JavaScript/buttons.js"></script>
 
 </head>
 
@@ -18,7 +18,7 @@
 
     <header>
         <img src="./webiste logo.png" alt="Example" width="175" height="150" class="centre">
-        <nav class="Menu">
+        <nav>
             <Ul class="nav_links">
                 <li><a href="./index.html">Home</a></li>
 
@@ -32,7 +32,7 @@
 
     </header>
 
-    <h1>This is my website by Luca fornasari</h1>
+    <h1 class="cen">This is my website by Luca fornasari</h1>
     &nbsp;
     <main>
         <section>
@@ -51,7 +51,13 @@
 
             </p>
         </section>
-        <button onclick=""></button>
+        <button onclick="reveallinks()">Click to reveal links</button>
+        &nbsp;
+        <p id="hiddenlinks" style="display: none;">
+            <a href="./PBlog/personalBlog.html">Personal Blogs<button></button></a>
+            <a href="./CBlog/CharactersBlog.html">Character Blogs<button></button></a>
+
+        </p>
     </main>
 </body>
 
