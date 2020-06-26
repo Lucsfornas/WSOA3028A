@@ -17,8 +17,9 @@ li, a, button{
     text-decoration: none;
 }
 
+
 body{
-    max-width: 1000px;
+    width: 95%;
     margin: auto;
     font-family: 'Raleway',sans-serif;
     font-weight: 500;
@@ -48,31 +49,51 @@ text-align: center;
 }
 
 header{
-    image-rendering: auto;
+    
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     display: flex;
-    width: 90%;
+    width: 95%;
+    height: 20vh;
     margin: auto;
-    justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
     
+    
+}
+
+.logo_container, .nav_links, .menu_buttons{
+    display: flex;
+}
+
+.logo_container {
+   flex:1;
+    justify-content: left;
+}
+
+nav{
+flex: 1;
+
 }
 
 .nav_links{
-    display: inline-block;
-    padding: 0px 20px;
-   list-style: none;
-   
+    
+    justify-content: space-around;
+    list-style: none;
     
 }
 
-.cen{
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
+.menu_buttons{
+flex:1;
+justify-content: space-around;
+
 }
+
+.hiddenbuttons{
+    
+    padding-top: 5em;
+    justify-items: space-around;
+    
+}
+
+
 
