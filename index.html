@@ -13,10 +13,12 @@
     <script src="./JavaScript/buttons.js"></script>
 </head>
 
-<body>
 
+<body>
     <header>
-        <img src="./webiste logo.png" alt="Example" width="175" height="150" class="centre">
+        <div class="logo_container">
+            <img src="./webiste logo.png" alt="Logo" width="175" height="150">
+        </div>
         <nav>
             <Ul class="nav_links">
                 <li><a href="./index.html">Home</a></li>
@@ -26,10 +28,13 @@
                 <li><a href="./CBlog/index.html">characters blog</a></li>
             </Ul>
         </nav>
-        <a href="./about.html">About<button></button></a>
-        <a href="./design.html">Design<button></button></a>
+        <div class="menu_buttons">
+            <a href="./about.html">About<button></button></a>
+            <a href="./design.html">Design<button></button></a>
+        </div>
 
     </header>
+
 
     <h1>This is my website by Luca fornasari</h1>
     &nbsp;
@@ -52,7 +57,7 @@
     </section>
     <button onclick="reveallinks()">Click to reveal links</button>
     &nbsp;
-    <p id="hiddenlinks" style="display: none;">
+    <p class="hiddenbuttons" id="hiddenlinks" style="display: none;">
         <a href="./PBlog/personalBlog.html">Personal Blogs<button></button></a>
         <a href="./CBlog/CharactersBlog.html">Character Blogs<button></button></a>
 
