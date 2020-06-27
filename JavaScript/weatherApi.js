@@ -1,8 +1,8 @@
-var button = document.querySelector('./button')
-var inputvalue = document.querySelector('./inputvalue')
-var name = document.querySelector("./name")
-var desc = document.querySelector("./desc")
-var temp = document.querySelector("./temp")
+var button = document.querySelector('.button')
+var inputvalue = document.querySelector('.Apidata')
+var name = document.querySelector(".name")
+var desc = document.querySelector(".desc")
+var temp = document.querySelector(".temp")
 
 
 
