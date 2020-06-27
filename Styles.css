@@ -103,25 +103,49 @@ justify-content: space-around;
     
 }
 
-.input{
+.apidata{
     text-align: center;
 
 }
 
-input{
+input[type="text"]{
 height: 50px;
 width: 600px;
+color:#ffbb6e ;
 background: rgba(66, 155, 184, 0.5);
 font-family: 'Raleway',sans-serif;
 font-size: 20px;
 border: none;
 border-radius: 2px;
+font-weight: bold;
+padding: 10px 10px;
 
 }
 
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    color:#ffbb6e ;
+    background: rgba(66, 155, 184, 0.5);
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    }
 
 .display{
     text-align: center;
+    height: 50px;
+width: 600px;
+color:#ffbb6e ;
+
+font-family: 'Raleway',sans-serif;
+font-size: 20px;
+border: none;
+border-radius: 2px;
+font-weight: bold;
+padding: 10px 10px;
 }
 
 
