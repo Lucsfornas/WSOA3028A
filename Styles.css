@@ -103,5 +103,25 @@ justify-content: space-around;
     
 }
 
+.input{
+    text-align: center;
+
+}
+
+input{
+height: 50px;
+width: 600px;
+background: rgba(66, 155, 184, 0.5);
+font-family: 'Raleway',sans-serif;
+font-size: 20px;
+border: none;
+border-radius: 2px;
+
+}
+
+
+.display{
+    text-align: center;
+}
 
 
