@@ -3,17 +3,20 @@
 *{box-sizing: border-box;
 margin:0 ;
 padding: 0;
-background-image: url(./websitebackground.jpg);
+background-image: url(./websitebg1final.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
+z-index: 0;
 }
 
-li, a button{
+
+
+li, a, button{
     font-family: 'Raleway',sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #f5f2d2;
+    font-weight: 1000;
+    font-size: 20px;
+    color: #ffbb6e;
     text-decoration: none;
 }
 
@@ -22,21 +25,29 @@ body{
     width: 95%;
     margin: auto;
     font-family: 'Raleway',sans-serif;
-    font-weight: 500;
+    font-weight: 1000;
+    font-size: 20px;
 text-align: center;
-color: whitesmoke;
+color: whitesmoke ;
+background-color: rgba(169,169, 169, 0.3);
+}
+
+.box{
+    background-color: #a9a9a9;
+    
 }
 
 p{
     margin: auto;
     font-family: 'Raleway',sans-serif;
-    font-weight: normal;
+    font-weight:1000;
     font-size: normal;
     line-height: 21px;
     text-align: justify ;
 }
 
 section{
+    margin-top: 4em;
     margin-bottom: 4em;
     padding: 2em;
 }
