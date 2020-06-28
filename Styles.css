@@ -103,7 +103,7 @@ justify-content: space-around;
     
 }
 
-.apidata{
+.input{
     text-align: center;
 
 }
@@ -139,6 +139,7 @@ input[type="submit"]{
     height: 50px;
 width: 600px;
 color:#ffbb6e ;
+text-align: center;
 
 font-family: 'Raleway',sans-serif;
 font-size: 20px;
