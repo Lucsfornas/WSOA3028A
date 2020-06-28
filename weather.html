@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats the weather</title>
+
+    <link href="./Styles.css" rel="stylesheet">
+</head>
+<header>
+    <div class="logo_container">
+        <img src="./webiste logo.png" alt="Logo" width="175" height="150">
+    </div>
+    <nav>
+        <Ul class="nav_links">
+            <li><a href="./index.html">Home</a></li>
+
+            <li><a href="./PBlog/personalBlog.html">Academic Blog</a></li>
+
+            <li><a href="./CBlog/CharactersBlog.html">characters blog</a></li>
+        </Ul>
+    </nav>
+    <div class="menu_buttons">
+        <a href="./about.html">About<button></button></a>
+        <a href="./design.html">Design<button></button></a>
+    </div>
+</header>
+
+<body>
+
+    <div class="appwrap">
+        <input type="text" autocomplete="off" class="searchbox" placeholder="Search for a city" />
+
+        <main class="mainthings">
+            <section class="location">
+                <div class="city">Johannesburg, South Africa</div>
+                <div class="date">Sunday, 28 june 2020</div>
+            </section>
+            <div class="current">
+                <div class="temp">15<span>°C</span></div>
+                <div class="weather">sunny</div>
+                <div class="hi-low">13 °C / 16 °C</div>
+            </div>
+        </main>
+    </div>
+    <script src="./JavaScript/weatherApi.js"></script>
+</body>
+
+</html>
