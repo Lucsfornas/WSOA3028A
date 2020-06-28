@@ -103,50 +103,91 @@ justify-content: space-around;
     
 }
 
-.input{
-    text-align: center;
-
+.appwrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+    flex: 1;
+    align-items: center;
 }
 
-input[type="text"]{
-height: 50px;
-width: 600px;
-color:#ffbb6e ;
-background: rgba(66, 155, 184, 0.5);
-font-family: 'Raleway',sans-serif;
-font-size: 20px;
-border: none;
-border-radius: 2px;
-font-weight: bold;
-padding: 10px 10px;
-
-}
-
-input[type="submit"]{
-    height: 50px;
-    width: 100px;
-    color:#ffbb6e ;
-    background: rgba(66, 155, 184, 0.5);
+.appwrap input{
+    width: 100%;
+    max-width: 280px;
     font-family: 'Raleway',sans-serif;
-    font-size: 20px;
+    padding: 10px 15px;
     border: none;
-    border-radius: 2px;
-    font-weight: bold;
-    }
+    outline: none;
+    background-color: rgba(225, 225, 225, 0.3) ;
 
-.display{
-    text-align: center;
-    height: 50px;
-width: 600px;
-color:#ffbb6e ;
-text-align: center;
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 4em solid #ffbb6e;
 
-font-family: 'Raleway',sans-serif;
-font-size: 20px;
-border: none;
-border-radius: 2px;
-font-weight: bold;
-padding: 10px 10px;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2 ease-out;
+
+    
 }
 
 
+.mainthings{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+}
+
+.location .city{
+    color: whitesmoke;
+    font-family: 'Raleway',sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: 'Raleway',sans-serif;
+
+}
+
+.location .date{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.current .temp{
+    color: #fff;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.6);
+    font-family: 'Raleway',sans-serif;
+}
+
+.current .temp span{
+    font-weight: 500;
+    background: none;
+    font-family: 'Raleway',sans-serif;
+}
+
+.current .weather{
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: rgba(0, 0, 0, 0.4);
+    font-family: 'Raleway',sans-serif;
+}
+
+.current .hi-low {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+    font-family: 'Raleway',sans-serif;
+}
