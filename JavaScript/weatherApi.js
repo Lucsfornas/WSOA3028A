@@ -15,8 +15,8 @@ window.addEventListener('load', () => {
             const api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=8a71da0d39cee6e47fe8472e84a233a2`;
 
             fetch(api)
-                .then(responce => {
-                    return responce.json();
+                .then(Responce => {
+                    return Responce.json();
                 })
                 .then(data => {
                     console.log(data);
