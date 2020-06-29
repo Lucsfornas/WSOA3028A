@@ -41,6 +41,7 @@ p{
     font-size: normal;
     line-height: 25px;
     text-align: justify ;
+    background-blend-mode: darken;
 }
 
 section{
