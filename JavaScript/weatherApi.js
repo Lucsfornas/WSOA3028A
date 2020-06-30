@@ -4,7 +4,7 @@ const api = {
     baseurl: "https://api.openweathermap.org/data/2.5/"
 }
 
-const searchbox = document.querySelector('.searchbox');
+const searchbox = document.querySelector('.search-box');
 searchbox.addEventListener('keypress', setQuery);
 
 function setQuery(evt) {
@@ -21,7 +21,7 @@ function getResults(query) {
 }
 
 function displayResults(weather) {
-    console.log(weather);
+
     let city = document.querySelector('.location .city');
     city.innerText = `${weather.name}, ${weather.sys.country}`;
 
