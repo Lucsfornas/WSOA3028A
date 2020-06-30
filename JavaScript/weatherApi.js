@@ -23,17 +23,17 @@ function getResults(query) {
 
 function displayResults(weather) {
 
-    let city = document.querySelector('.mainthings.location.city');
+    let city = document.querySelector('.mainthings .location .city');
     city.innerHTML = `${weather.name}, ${weather.sys.country}`;
 
     let now = new Date();
-    let date = document.querySelector('.mainthings.location.date');
+    let date = document.querySelector('.mainthings .location .date');
     date.innerHTML = dateBuilder(now);
 
-    let temp = document.querySelector('.current.temp');
+    let temp = document.querySelector('.current .temp');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°C</span`;
 
-    let weather_el = document.querySelector('.current.weather');
+    let weather_el = document.querySelector('.current .weather');
     weather_el.innerHTML = weather.weather[0].main;
 
     let hilow = document.querySelector('.hi-low');
