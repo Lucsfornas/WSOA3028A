@@ -4,6 +4,7 @@ const api = {
     baseurl: "https://api.openweathermap.org/data/2.5/"
 }
 
+
 const searchbox = document.querySelector('.search-box');
 searchbox.addEventListener('keypress', setQuery);
 
@@ -22,21 +23,21 @@ function getResults(query) {
 
 function displayResults(weather) {
 
-    let city = document.querySelector('.location .city');
-    city.innerText = `${weather.name}, ${weather.sys.country}`;
+    let city = document.querySelector('.location.city');
+    city.innerHTML = `${weather.name}, ${weather.sys.country}`;
 
     let now = new Date();
-    let date = document.querySelector('.location .date');
-    date.innerText = dateBuilder(now);
+    let date = document.querySelector('.location.date');
+    date.innerHTML = dateBuilder(now);
 
-    let temp = document.querySelector('.current .temp');
+    let temp = document.querySelector('.current.temp');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°C</span`;
 
-    let weather_el = document.querySelector('.current .weather');
-    weather_el.innerText = weather.weather[0].main;
+    let weather_el = document.querySelector('.current.weather');
+    weather_el.innerHTML = weather.weather[0].main;
 
     let hilow = document.querySelector('.hi-low');
-    hilow.innerText = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
+    hilow.innerHTML = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
 
 }
 
