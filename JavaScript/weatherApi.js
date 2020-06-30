@@ -1,14 +1,14 @@
 
 const api = {
     key: "8a71da0d39cee6e47fe8472e84a233a2",
-    baseurl: "https://api.openweathermap.org/data/2.5/",
+    baseurl: "https://api.openweathermap.org/data/2.5/"
 }
 
 const searchbox = document.querySelector('.searchbox');
-searchbox.addEventListener('keypress', setQuery)
+searchbox.addEventListener('keypress', setQuery);
 
 function setQuery(evt) {
-    if (event.keycode == 13) {
+    if (evt.keyCode == 13) {
         getResults(searchbox.value);
     }
 }
